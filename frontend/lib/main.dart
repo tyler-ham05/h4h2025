@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'random_functions.dart';
 import 'comunity_display.dart';
 import 'custom_search.dart';
 import 'default_page.dart';

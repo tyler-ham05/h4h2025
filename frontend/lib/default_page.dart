@@ -6,7 +6,14 @@ class DefaultPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text('Pick a hobby to get started'),
+      
+      child: Column(
+        children: [
+          Image.asset("frontend/assets/h4hlogo.png"),
+          Text('Pick a hobby to get started'),
+        ],
+
+      )
     ); 
   }
 }
