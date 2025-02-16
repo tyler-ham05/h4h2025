@@ -1,7 +1,7 @@
 [
     {
         "Hobby": "Gardening",
-        "Pitch": "Transform your space into a green oasis! Grow flowers, veggies, or herbs\u2014right in your backyard or balcony. Relaxing, rewarding, and eco-friendly!",
+        "Pitch": "Transform your space into a green oasis! Grow flowers, veggies, or herbs' right in your backyard or balcony. Relaxing, rewarding, and eco-friendly!",
         "How to Start": "Grab soil, seeds, and a pot. Start with herbs or succulents.",
         "Locations": "Emma Prusch Farm Park: 647 S King Rd, San Jose, CA 95116. West Valley College Teaching Garden: 14000 Fruitvale Ave, Saratoga, CA 95070. San Jose State University Garden Club.",
         "Starting Cost": "$",
@@ -18,7 +18,7 @@
     },
     {
         "Hobby": "Photography",
-        "Pitch": "Capture life\u2019s unforgettable moments! Turn everyday scenes into stunning art with a phone or camera.",
+        "Pitch": "Capture life's unforgettable moments! Turn everyday scenes into stunning art with a phone or camera.",
         "How to Start": "Start snapping pics with your phone or a beginner camera. Learn lighting and composition.",
         "Locations": "San Jose Museum of Art: 110 S Market St, San Jose, CA 95113. Alum Rock Park: 15350 Penitencia Creek Rd, San Jose, CA 95127. De Anza College Photography Club.",
         "Starting Cost": "$",
@@ -54,7 +54,7 @@
         "Hobby": "Cooking",
         "Pitch": "Become the chef of your own kitchen! Explore new flavors and enjoy healthier, tastier homemade meals.",
         "How to Start": "Start with simple recipes like pasta or stir-fry. Experiment with spices and ingredients.",
-        "Locations": "Sur La Table Cooking Classes: 378 Santana Row, San Jose, CA 95128. Chef\u2019s Kitchen Cooking School: 1580 Oakland Rd, San Jose, CA 95131. Foothill College Culinary Arts Club.",
+        "Locations": "Sur La Table Cooking Classes: 378 Santana Row, San Jose, CA 95128. Chef's Kitchen Cooking School: 1580 Oakland Rd, San Jose, CA 95131. Foothill College Culinary Arts Club.",
         "Starting Cost": "$",
         "Tags": [
             "Creative",

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 class CustumSearchDelegate extends SearchDelegate {
-  List<String> searchTerms = ["Run", "BasketBall", "Cards"];
+  List<dynamic> searchTerms;
+  CustumSearchDelegate({required this.searchTerms});
+
 
   @override
   ThemeData appBarTheme(BuildContext context) {
@@ -31,7 +33,7 @@ class CustumSearchDelegate extends SearchDelegate {
 
   @override
   TextStyle? get searchFieldStyle => TextStyle(
-        fontSize: 22, // 🔥 Fixes small input text
+        fontSize: 22,
         color: Colors.black,
       );
 
