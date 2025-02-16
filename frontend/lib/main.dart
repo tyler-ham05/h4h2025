@@ -44,12 +44,20 @@ class _MyHomePageState extends State<MyHomePage> {
     String query = "";
 
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
+        leading: Image.asset('h4hlogo.png'),
         title: Text(
-          "Third Place",
-          style: TextStyle(color: Colors.black, fontSize: 22, fontWeight: FontWeight.bold),
+          "THIRD PLACE",
+          style: TextStyle(
+            fontFamily: 'Montserrat',
+            color: Colors.grey, 
+            fontSize: 30, 
+            fontWeight: FontWeight.bold
+          ),
         ),
-        backgroundColor: Colors.deepPurple,
+      
+        backgroundColor: const Color.fromARGB(255, 134, 50, 219),
         elevation: 4, // Shadow effect
         centerTitle: true, // Centers the title
         iconTheme: IconThemeData(color: Colors.black), // Changes back button color
@@ -69,11 +77,11 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Row(
           children: [
             Container(
+              margin: EdgeInsets.only(top: 10, bottom:10), 
               width: MediaQuery.of(context).size.width * 0.3,
               decoration: BoxDecoration(
                 color: Colors.yellow,
-                borderRadius: BorderRadius.circular(20)
-                
+                borderRadius: BorderRadius.circular(20),
               ),
               child: ListView.builder(
                 itemCount: dummydata.length,
