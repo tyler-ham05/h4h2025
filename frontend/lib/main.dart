@@ -40,26 +40,41 @@ class _MyHomePageState extends State<MyHomePage> {
     var dummydata = List.generate(
         5,
         (index) =>
-            {'name': 'Hobby $index', 'description': 'Description $index','communities':'dummy communites'});
+            {'name': 'Hobby $index', 'description': 'Description $index','communities':['community 0','community 1','community 2']});
     String query = "";
 
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        leading: Image.asset('h4hlogo.png'),
+        bottom: PreferredSize(
+          preferredSize: const Size.fromHeight(4.0),
+          child: Container(
+              color: Colors.grey,
+              height: 4.0,
+          )
+        ),
+        actionsIconTheme: IconThemeData(
+          size: 75
+        ),
+        toolbarHeight: 100,
+        leadingWidth: 100,
+        leading: Padding(
+          padding: const EdgeInsets.only(left: 10),
+          child: Image.asset('logo_tranparent_notext.png',),
+        ),
+        centerTitle: false,
         title: Text(
           "THIRD PLACE",
           style: TextStyle(
             fontFamily: 'Montserrat',
-            color: Colors.grey, 
-            fontSize: 30, 
+            color: const Color.fromARGB(255, 90, 89, 89), 
+            fontSize: 50,
+            letterSpacing: 4.5,
             fontWeight: FontWeight.bold
           ),
         ),
-      
-        backgroundColor: const Color.fromARGB(255, 134, 50, 219),
+        backgroundColor: Colors.white,
         elevation: 4, // Shadow effect
-        centerTitle: true, // Centers the title
         iconTheme: IconThemeData(color: Colors.black), // Changes back button color
         actions: [
           IconButton(
@@ -80,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
               margin: EdgeInsets.only(top: 10, bottom:10), 
               width: MediaQuery.of(context).size.width * 0.3,
               decoration: BoxDecoration(
-                color: Colors.yellow,
+                color: Colors.white,
                 borderRadius: BorderRadius.circular(20),
               ),
               child: ListView.builder(
@@ -103,20 +118,25 @@ class _MyHomePageState extends State<MyHomePage> {
                           height: 200,
                           padding: EdgeInsets.all(20),
                           decoration: BoxDecoration(
-                            color: Colors.green,
+                            color: Colors.blue,
                             borderRadius: BorderRadius.circular(8),
                           ),
                             child: Text(
                               style: TextStyle(fontSize: 30),
                               '${dummydata[index]['name']}'
-                              ),
-                        
+                            ),   
                         ),
-   
                       ],
                     ),
                   );
                 },
+              ),
+            ),
+            SizedBox(
+              height: MediaQuery.sizeOf(context).height,
+              width: 5,
+              child: Container(
+                color: Colors.grey,
               ),
             ),
             // Container for expanded view
