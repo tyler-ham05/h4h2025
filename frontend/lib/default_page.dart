@@ -8,11 +8,11 @@ class DefaultPage extends StatelessWidget {
     return Center(
         child: Column(
       children: [
-        Image.asset("assets/h4hlogo_grayscale.png"),
+        Image.asset("assets/h4hlogo.png"),
         Text(
           'Pick a hobby to get started',
           style: TextStyle(
-              color: Colors.grey, fontSize: 40, fontFamily: "Montserrat"),
+              color: Colors.black, fontSize: 40, fontFamily: "Montserrat"),
         ),
       ],
     ));

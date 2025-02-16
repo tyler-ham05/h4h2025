@@ -202,11 +202,11 @@ class _MyHomePageState extends State<MyHomePage> {
                                 padding: const EdgeInsets.all(8.0),
                                 child: Row(
                                   children: [
-                                    SizedBox(width: 50),
+                                    SizedBox(width: 10),
                                     RichText(
                                       text: TextSpan(
                                           style: TextStyle(
-                                              fontSize: 30,
+                                              fontSize: 20,
                                               fontFamily: "Montserrat"),
                                           text: '${hobbies[index].hobby}\n',
                                           children: [
