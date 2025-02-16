@@ -27,4 +27,36 @@ def create_group():
         db.session.rollback()
         return jsonify({"error":str(e)}), 500
 
-    
+#kill group
+@app.route("/api/groups/<int:id>", methods=["DELETE"]) #we must specify which mf we want to kill, so we do that here
+def kill_group(id):
+    try:
+        grouper = Group.query.get(id)
+        if grouper is None:
+            return jsonify({"error":"mf is not here"}), 404
+        else:
+            db.session.delete(grouper)
+            db.session.commit()
+            return jsonify({"msg":"i shot the mf in cold blood"}),200
+
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({"error":str(e)}), 500
+#update mf
+@app.route("/api/groups/<int:id>", methods=["PATCH"]) #we must specify which mf we want to fix, so we do that here
+def update_group(id):
+    try:
+        grouper = Group.query.get(id)
+        if grouper is None:
+            return jsonify({"error":"mf is on the run (index not found)"}), 404
+        else:
+            data = request.json
+            grouper.group_name = data.get("group_name",grouper.group_name)
+            grouper.description = data.get("description",grouper.description)
+            grouper.location = data.get("location",grouper.location)
+            db.session.commit()
+            return jsonify({"msg":"i fixed bro dw (updated data)"}),200
+
+    except Exception as e:
+        db.session.rollback()
+        return jsonify({"error":str(e)}), 500
