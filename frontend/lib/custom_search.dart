@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CustumSearchDelegate extends SearchDelegate {
-  List<String> searchTerms = [
-    "Run",
-    "BasketBall",
-    "Cards"
-  ];
+  List<String> searchTerms = ["Run", "BasketBall", "Cards"];
 
   @override
   ThemeData appBarTheme(BuildContext context) {
@@ -15,13 +11,16 @@ class CustumSearchDelegate extends SearchDelegate {
         color: Colors.grey, // Custom AppBar Color
         iconTheme: IconThemeData(color: Colors.white), // Back button color
         titleTextStyle: TextStyle(
-          color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
+            color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
       ),
       inputDecorationTheme: InputDecorationTheme(
         contentPadding: EdgeInsets.all(10),
         filled: true,
         fillColor: Colors.white,
-        hintStyle: TextStyle(color: Colors.grey, fontSize: 30,),
+        hintStyle: TextStyle(
+          color: Colors.grey,
+          fontSize: 30,
+        ),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(20),
           borderSide: BorderSide.none,
@@ -29,12 +28,12 @@ class CustumSearchDelegate extends SearchDelegate {
       ),
     );
   }
-  
+
   @override
   TextStyle? get searchFieldStyle => TextStyle(
-    fontSize: 22, // 🔥 Fixes small input text
-    color: Colors.black,
-  );
+        fontSize: 22, // 🔥 Fixes small input text
+        color: Colors.black,
+      );
 
   @override
   List<Widget> buildActions(BuildContext context) {

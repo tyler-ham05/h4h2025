@@ -14,10 +14,12 @@ class ComunityDisplay extends StatelessWidget {
       double width = constraints.maxWidth;
       return Row(
         children: [
-          SizedBox(width: 20,),
+          SizedBox(
+            width: 20,
+          ),
           Container(
             color: Colors.white,
-            width: width -20,
+            width: width - 20,
             child: Container(
               padding: const EdgeInsets.only(left: 70, right: 70),
               child: HobbyOverview(data: data),
