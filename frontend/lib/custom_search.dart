@@ -11,7 +11,8 @@ class CustumSearchDelegate extends SearchDelegate {
   ThemeData appBarTheme(BuildContext context) {
     return ThemeData(
       appBarTheme: AppBarTheme(
-        color: Colors.deepPurple, // Custom AppBar Color
+        toolbarHeight: 100,
+        color: Colors.blue, // Custom AppBar Color
         iconTheme: IconThemeData(color: Colors.white), // Back button color
         titleTextStyle: TextStyle(
           color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
