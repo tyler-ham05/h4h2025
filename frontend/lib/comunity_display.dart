@@ -43,11 +43,11 @@ class ComunityDisplay extends StatelessWidget {
                         children: [
                           Text(
                             '${data['communities'][index]}',
-                            style: TextStyle(fontSize: 30),
+                            style: TextStyle(fontSize: 30, fontFamily: "Montserrat"),
                           ),
                           Text(
                             'XXXX members',
-                            style: TextStyle(fontSize: 15),
+                            style: TextStyle(fontSize: 15, fontFamily: "Montserrat"),
                           ),
                         ],
                       ),

@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
     var dummydata = List.generate(
         5,
         (index) =>
-            {'name': 'Hobby $index', 'description': 'Description $index','communities':['community 0','community 1','community 2']});
+            {'name': 'Hobby $index', 'description': 'Description $index','quickstart': 'This is some instruction on how you would get started for this hobby.','communities':['community 0','community 1','community 2'], 'tags':"Athleic, Something, Some other tags"});
     String query = "";
 
     return Scaffold(
@@ -114,17 +114,28 @@ class _MyHomePageState extends State<MyHomePage> {
                           height: 20,
                         ),
                         Container(
+
                           width: MediaQuery.of(context).size.width * 0.25,
                           height: 200,
                           padding: EdgeInsets.all(20),
                           decoration: BoxDecoration(
                             color: Colors.blue,
                             borderRadius: BorderRadius.circular(8),
+                            //image: DecorationImage(image: AssetImage('URL goes here'), fit: BoxFit.cover)
+                            
                           ),
-                            child: Text(
-                              style: TextStyle(fontSize: 30),
-                              '${dummydata[index]['name']}'
-                            ),   
+                            child: RichText(text: TextSpan(
+                              style: TextStyle(
+                                fontSize: 30,
+                                fontFamily: "Montserrat"
+                                ),
+                              text: '${dummydata[index]['name']}\n',
+                              children: [
+                              TextSpan(
+                                text: "\$\$\$\$",
+                              )
+                              ]
+                            ),   )
                         ),
                       ],
                     ),
