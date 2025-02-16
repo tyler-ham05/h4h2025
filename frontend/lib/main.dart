@@ -81,11 +81,8 @@ class _MyHomePageState extends State<MyHomePage> {
     String url = 'http://127.0.0.1:5000/tags';
     final response = await http.get(Uri.parse(url));
     var responseData = json.decode(response.body);
-    List<Tag> tags = [];
-    for(var item in responseData){
-      Tag tag = Tag(
-        tag: item['tags']
-      );
+    List<String> tags = [];
+    for(var tag in responseData){
       tags.add(tag);
     }
     return tags;
@@ -118,7 +115,6 @@ class _MyHomePageState extends State<MyHomePage> {
       List<dynamic> groups = snapshot.data?[0];
       List<dynamic> hobbies = snapshot.data?[1];
       List<dynamic> tags = snapshot.data?[2];
-      tags = tags[0].tag;
       
       return Scaffold(
         backgroundColor: Colors.white,

@@ -12,7 +12,7 @@ with open("data/hobbies.json", "r") as file:
 tags = []
 for hobby in data_hobbies:
     tags.extend(hobby["Tags"])
-hob_tags = [{'tags' : tags}]
+hob_tags = list(set(tags))
 
 @app.route('/', methods = ['GET', 'POST']) 
 def home(): 
@@ -34,4 +34,4 @@ def tags():
     return jsonify(hob_tags) 
 
 if __name__ == '__main__': 
-    app.run() 
+    app.run(debug = True) 

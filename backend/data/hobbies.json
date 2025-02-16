@@ -1,15 +1,14 @@
 [
     {
         "Hobby": "Gardening",
-        "Pitch": "Transform your space into a green oasis! Grow flowers, veggies, or herbs' right in your backyard or balcony. Relaxing, rewarding, and eco-friendly!",
-        "How to Start": "Grab soil, seeds, and a pot. Start with herbs or succulents.",
+        "Pitch": "Gardening is more than just a hobby; it\u2019s a rewarding way to connect with nature. Whether you\u2019re growing colorful flowers, fresh vegetables, or aromatic herbs, gardening allows you to create your own green sanctuary right at home. It offers therapeutic benefits, reduces stress, and provides a sense of accomplishment as you watch your plants thrive. Plus, it\u2019s a fantastic way to be eco-friendly by growing your own food and supporting biodiversity.",
+        "How to Start": "Start with a few basics: a pot or small container, soil, and seeds. The starting cost is typically moderate because basic supplies like soil and containers are affordable, but you may need to invest in a few tools if you're expanding your garden. Begin with plants like herbs (e.g., basil, mint) or succulents, as they require minimal maintenance. Consider the cost of soil and pots, which are generally inexpensive, while premium gardening tools like watering cans or planters could add to the initial expense. Prices may vary depending on plant types, location, and size of your garden.",
         "Locations": "Emma Prusch Farm Park: 647 S King Rd, San Jose, CA 95116. West Valley College Teaching Garden: 14000 Fruitvale Ave, Saratoga, CA 95070. San Jose State University Garden Club.",
-        "Starting Cost": "$",
+        "Starting Cost": "$$",
         "Tags": [
             "Outdoor",
             "Relaxing",
             "Creative",
-            "Low-Cost",
             "Skill-Building",
             "Seasonal"
         ],
@@ -18,14 +17,13 @@
     },
     {
         "Hobby": "Photography",
-        "Pitch": "Capture life's unforgettable moments! Turn everyday scenes into stunning art with a phone or camera.",
-        "How to Start": "Start snapping pics with your phone or a beginner camera. Learn lighting and composition.",
+        "Pitch": "Photography is an exciting and creative way to capture the world around you. From breathtaking landscapes to candid moments with friends, every photograph tells a unique story. Whether you\u2019re a beginner with a smartphone or an aspiring pro with a DSLR, photography helps you see the beauty in everyday life. It\u2019s a blend of technical skill, artistic expression, and storytelling that allows you to freeze time and preserve memories forever.",
+        "How to Start": "Begin by experimenting with your phone\u2019s camera or an entry-level digital camera. The starting cost is higher compared to some hobbies, as a good camera and lens can be an investment. However, you can start with a smartphone and free photo-editing apps to practice. Factors like camera quality, storage, and accessories like a tripod or lighting will determine your initial cost. You\u2019ll need to learn basic photography skills such as composition and lighting, but entry-level equipment is sufficient for starting.",
         "Locations": "San Jose Museum of Art: 110 S Market St, San Jose, CA 95113. Alum Rock Park: 15350 Penitencia Creek Rd, San Jose, CA 95127. De Anza College Photography Club.",
-        "Starting Cost": "$",
+        "Starting Cost": "$$$",
         "Tags": [
             "Creative",
             "Artistic",
-            "Outdoor",
             "Skill-Building",
             "Social",
             "Tech-Friendly"
@@ -35,8 +33,8 @@
     },
     {
         "Hobby": "Yoga",
-        "Pitch": "Find your zen and boost your fitness! Stretch, strengthen, and de-stress with yoga.",
-        "How to Start": "Roll out a mat and follow online tutorials or join a beginner class.",
+        "Pitch": "Yoga is not only a physical practice, but also a holistic approach to mental and emotional well-being. It helps to increase flexibility, strength, and balance, while also promoting relaxation and mindfulness. Whether you\u2019re looking to improve your fitness, manage stress, or simply feel more grounded in your daily life, yoga offers something for everyone. It's a great way to cultivate a sense of inner peace and a deeper connection with your body and mind.",
+        "How to Start": "All you need is a yoga mat to begin your practice at home. Starting costs for yoga are quite low, with a basic mat being the primary purchase. The price of mats can vary based on material and brand, but many affordable options exist. You might also consider props like yoga blocks or straps for extra support. As you progress, you can explore more advanced equipment, but to start, you don\u2019t need much more than space and your own body. A beginner\u2019s class or online tutorials can help you learn fundamental poses.",
         "Locations": "Yoga Source: 1963 Pruneridge Ave, Santa Clara, CA 95050. Breathe Los Gatos: 27 University Ave, Los Gatos, CA 95030. Santa Clara University Yoga Club.",
         "Starting Cost": "$",
         "Tags": [
@@ -52,25 +50,24 @@
     },
     {
         "Hobby": "Cooking",
-        "Pitch": "Become the chef of your own kitchen! Explore new flavors and enjoy healthier, tastier homemade meals.",
-        "How to Start": "Start with simple recipes like pasta or stir-fry. Experiment with spices and ingredients.",
-        "Locations": "Sur La Table Cooking Classes: 378 Santana Row, San Jose, CA 95128. Chef's Kitchen Cooking School: 1580 Oakland Rd, San Jose, CA 95131. Foothill College Culinary Arts Club.",
-        "Starting Cost": "$",
+        "Pitch": "Cooking is a creative and practical skill that allows you to nourish yourself and others with delicious, homemade meals. It's a great way to explore new flavors, experiment with ingredients, and develop a deeper appreciation for food. Plus, cooking can be a fun and social activity, whether you\u2019re cooking with family, hosting friends, or trying new recipes alone. It can help improve your health and save you money while offering endless opportunities to get creative in the kitchen.",
+        "How to Start": "Begin with familiar recipes that require simple ingredients, such as pasta, stir-fries, or soups. Basic cooking utensils (a good knife, cutting board, and pan) are essential and are relatively inexpensive. You may also need ingredients such as spices, oils, and sauces, which can be cost-effective if you buy in bulk. The cost of ingredients can vary, especially if you explore more exotic flavors or higher-end ingredients. You can also take cooking classes to improve your skills and learn new techniques.",
+        "Locations": "Sur La Table Cooking Classes: 378 Santana Row, San Jose, CA 95128. Chef\u2019s Kitchen Cooking School: 1580 Oakland Rd, San Jose, CA 95131. Foothill College Culinary Arts Club.",
+        "Starting Cost": "$$",
         "Tags": [
             "Creative",
             "Practical",
             "Indoor",
             "Social",
-            "Skill-Building",
-            "Low-Cost"
+            "Skill-Building"
         ],
         "Hobby Square Image": "https://i.imgur.com/UgLbZbv.jpeg",
         "Hobby Landscape Image": "https://i.imgur.com/davEr1O.jpeg"
     },
     {
         "Hobby": "Hiking",
-        "Pitch": "Step into nature and leave your stress behind! Explore breathtaking trails, get fresh air, and stay active.",
-        "How to Start": "Lace up your shoes, grab water, and hit an easy trail.",
+        "Pitch": "Hiking is a fantastic way to experience the great outdoors, enjoy breathtaking views, and stay active. It\u2019s an activity that allows you to escape the hustle and bustle of everyday life and immerse yourself in nature. Whether you're traversing rugged mountain paths, walking through peaceful forests, or simply strolling along a scenic trail, hiking provides both physical and mental benefits. It\u2019s also a perfect way to bond with friends or enjoy solitude, all while connecting with the natural world around you.",
+        "How to Start": "To start hiking, invest in comfortable shoes or boots, which are essential for safe and enjoyable hikes. The starting cost is relatively low, mainly focused on footwear, water, and snacks. Hiking-specific gear such as backpacks or trekking poles can be added as you progress. Factors like trail difficulty, location, and your personal comfort may determine the costs for each hike. You don\u2019t need special gear initially, just the basics to stay hydrated and comfortable while exploring.",
         "Locations": "Mission Peak Regional Preserve: 43600 Mission Blvd, Fremont, CA 94539. Almaden Quicksilver County Park: 21785 Almaden Rd, San Jose, CA 95120. San Jose State University Outdoor Adventures.",
         "Starting Cost": "$",
         "Tags": [
