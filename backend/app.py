@@ -1,8 +1,10 @@
 from flask import Flask, jsonify, request 
 import json
+from flask_cors import CORS
 
 
 app = Flask(__name__) 
+CORS(app)
 with open("data/groups.json", "r") as file:
     data_group = json.load(file)
 with open("data/hobbies.json", "r") as file:
@@ -32,4 +34,4 @@ def tags():
     return jsonify(hob_tags) 
 
 if __name__ == '__main__': 
-    app.run(debug = True) 
+    app.run() 
