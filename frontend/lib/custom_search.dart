@@ -12,22 +12,29 @@ class CustumSearchDelegate extends SearchDelegate {
     return ThemeData(
       appBarTheme: AppBarTheme(
         toolbarHeight: 100,
-        color: Colors.blue, // Custom AppBar Color
+        color: Colors.grey, // Custom AppBar Color
         iconTheme: IconThemeData(color: Colors.white), // Back button color
         titleTextStyle: TextStyle(
           color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
       ),
       inputDecorationTheme: InputDecorationTheme(
+        contentPadding: EdgeInsets.all(10),
         filled: true,
         fillColor: Colors.white,
-        hintStyle: TextStyle(color: Colors.grey),
+        hintStyle: TextStyle(color: Colors.grey, fontSize: 30,),
         border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(8),
+          borderRadius: BorderRadius.circular(20),
           borderSide: BorderSide.none,
         ),
       ),
     );
   }
+  
+  @override
+  TextStyle? get searchFieldStyle => TextStyle(
+    fontSize: 22, // 🔥 Fixes small input text
+    color: Colors.black,
+  );
 
   @override
   List<Widget> buildActions(BuildContext context) {

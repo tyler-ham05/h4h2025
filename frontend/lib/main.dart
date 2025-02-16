@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         backgroundColor: Colors.white,
         elevation: 4, // Shadow effect
-        iconTheme: IconThemeData(color: Colors.black), // Changes back button color
+        iconTheme: IconThemeData(color: Colors.grey), // Changes back button color
         actions: [
           IconButton(
             onPressed: () {
@@ -111,11 +111,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: Column(
                       children: [
                         SizedBox(
-                          height: 20,
+                          height: 15,
                         ),
-                        Container(
-
-                          width: MediaQuery.of(context).size.width * 0.25,
+                        Card(
+                          margin: EdgeInsets.only(left: 30, right: 30),
+                         /* width: MediaQuery.of(context).size.width * 0.25,
                           height: 200,
                           padding: EdgeInsets.all(20),
                           decoration: BoxDecoration(
@@ -123,19 +123,42 @@ class _MyHomePageState extends State<MyHomePage> {
                             borderRadius: BorderRadius.circular(8),
                             //image: DecorationImage(image: AssetImage('URL goes here'), fit: BoxFit.cover)
                             
+                          ),*/
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(8)
                           ),
-                            child: RichText(text: TextSpan(
-                              style: TextStyle(
-                                fontSize: 30,
-                                fontFamily: "Montserrat"
-                                ),
-                              text: '${dummydata[index]['name']}\n',
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Row(
                               children: [
-                              TextSpan(
-                                text: "\$\$\$\$",
-                              )
-                              ]
-                            ),   )
+                                Spacer(),
+                                RichText(text: TextSpan(
+                                    style: TextStyle(
+                                      fontSize: 30,
+                                      fontFamily: "Montserrat"
+                                      ),
+                                    text: '${dummydata[index]['name']}\n',
+                                    children: [
+                                    TextSpan(
+                                      text: "\$\$\$\$",
+                                    ),
+                                    ]
+                                  ),
+                                ),
+                                Spacer(),
+                                ClipRRect(
+                                  borderRadius: BorderRadius.circular(20),
+                                  child: Image.network(
+                                    "https://i.imgur.com/NXSSdB2.jpeg",
+                                    height: 200,
+                                    
+                                  ),
+                                ),
+                          
+                    
+                              ],
+                            ),
+                          )
                         ),
                       ],
                     ),
