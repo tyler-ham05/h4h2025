@@ -6,7 +6,7 @@ class HobbyOverview extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return ListView(
         //image = blah blah blah
         children: [
           //NAME
@@ -18,13 +18,11 @@ class HobbyOverview extends StatelessWidget {
             height: 200,
             padding: EdgeInsets.all(20),
             decoration: BoxDecoration(
-              color: Colors.blue,
+              color: Colors.white,
               borderRadius: BorderRadius.circular(8),
             ),
-            child: Text(style: TextStyle(fontSize: 30), '${data['name']}'),
+            child: Image.network('https://picsum.photos/250?image=9'),
           ),
-          
-          //
           SizedBox(
             height: 20,
           ),
@@ -33,12 +31,28 @@ class HobbyOverview extends StatelessWidget {
             height: 200,
             padding: EdgeInsets.all(20),
             decoration: BoxDecoration(
-              color: Colors.blue,
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(8),
+            ),
+            child: Text(style: TextStyle(fontSize: 30), '${data['name']}'),
+          ),
+          
+          //Description
+          SizedBox(
+            height: 20,
+          ),
+          Container(
+            width: MediaQuery.of(context).size.width * 0.25,
+            height: 200,
+            padding: EdgeInsets.all(20),
+            decoration: BoxDecoration(
+              color: Colors.white,
               borderRadius: BorderRadius.circular(8),
             ),
             child: Text(
                 style: TextStyle(fontSize: 30), '${data['description']}'),
           ),
+
         ]);
   }
 }
