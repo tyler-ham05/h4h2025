@@ -13,46 +13,8 @@ class HobbyOverview extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
-          Container(
-            width: MediaQuery.of(context).size.width * 0.25,
-            height: 200,
-            padding: EdgeInsets.all(20),
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(8),
-            ),
-            child: Image.network('https://picsum.photos/250?image=9'),
-          ),
-          SizedBox(
-            height: 20,
-          ),
-          Container(
-            width: MediaQuery.of(context).size.width * 0.25,
-            height: 200,
-            padding: EdgeInsets.all(20),
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(8),
-            ),
-            child: Text(style: TextStyle(fontSize: 30), '${data['name']}'),
-          ),
-          
-          //Description
-          SizedBox(
-            height: 20,
-          ),
-          Container(
-            width: MediaQuery.of(context).size.width * 0.25,
-            height: 200,
-            padding: EdgeInsets.all(20),
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(8),
-            ),
-            child: Text(
-                style: TextStyle(fontSize: 30), '${data['description']}'),
-          ),
-
+          RichText(text: '${data['name']}',
+          )
         ]);
   }
 }
