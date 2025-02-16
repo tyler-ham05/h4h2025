@@ -70,17 +70,20 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             Container(
               width: MediaQuery.of(context).size.width * 0.3,
-              color: Colors.yellow,
+              decoration: BoxDecoration(
+                color: Colors.yellow,
+                borderRadius: BorderRadius.circular(20)
+                
+              ),
               child: ListView.builder(
                 itemCount: dummydata.length,
-                itemBuilder: (context, index) {
-                                       
+                itemBuilder: (context, index) { 
                   return GestureDetector(
                     onTap: () {
                       setState(() {
                         expanded = index;
                       });
-                      print('You tapped on $index and expanded is $expanded');
+                      //print('You tapped on $index and expanded is $expanded');
                     },
                     child: Column(
                       children: [
@@ -90,6 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         Container(
                           width: MediaQuery.of(context).size.width * 0.25,
                           height: 200,
+                          padding: EdgeInsets.all(20),
                           decoration: BoxDecoration(
                             color: Colors.green,
                             borderRadius: BorderRadius.circular(8),
@@ -108,13 +112,6 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             // Container for expanded view
-            SizedBox(
-              width: MediaQuery.sizeOf(context).width * 0.005,
-              height: MediaQuery.sizeOf(context).height,
-              child: Container(
-                color: Colors.grey,
-              ),
-            ),
             Container(
               color: Colors.white,
               width: MediaQuery.sizeOf(context).width * 0.695,

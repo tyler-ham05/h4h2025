@@ -9,8 +9,15 @@ class DefaultPage extends StatelessWidget {
       
       child: Column(
         children: [
-          Image.asset("frontend/assets/h4hlogo.png"),
-          Text('Pick a hobby to get started'),
+          Image.asset("assets/h4hlogo_grayscale.png"),
+          Text(
+            'Pick a hobby to get started',
+            style: TextStyle(
+              color: Colors.grey,
+              fontSize: 40,
+              fontFamily: "Montserrat"
+            ),
+          ),
         ],
 
       )
