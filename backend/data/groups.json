@@ -1,0 +1,107 @@
+[
+    {
+        "group_name": "Emma Prusch Farm Park: Group",
+        "description": "A community-driven green space perfect for beginner and seasoned gardeners to grow plants and share knowledge.",
+        "address": "647 S King Rd, San Jose, CA 95116",
+        "square_image_url_for_group": "https://i.imgur.com/YivV008.jpeg",
+        "attached_hobby": "Gardening"
+    },
+    {
+        "group_name": "West Valley College Teaching Garden: Organization",
+        "description": "An educational garden where you can learn hands-on gardening techniques and sustainable practices.",
+        "address": "14000 Fruitvale Ave, Saratoga, CA 95070",
+        "square_image_url_for_group": "https://i.imgur.com/wcKb1vK.jpeg",
+        "attached_hobby": "Gardening"
+    },
+    {
+        "group_name": "San Jose State University Garden Club",
+        "description": "A student-led club dedicated to urban gardening, sustainability, and community service.",
+        "address": "1 Washington Sq, San Jose, CA 95192",
+        "square_image_url_for_group": "https://i.imgur.com/yotvb8E.jpeg",
+        "attached_hobby": "Gardening"
+    },
+    {
+        "group_name": "San Jose Museum of Art: Society",
+        "description": "A hub for creative photographers looking to explore artistic exhibits and hone their photography skills.",
+        "address": "110 S Market St, San Jose, CA 95113",
+        "square_image_url_for_group": "https://i.imgur.com/I4s8xlz.jpeg",
+        "attached_hobby": "Photography"
+    },
+    {
+        "group_name": "Alum Rock Park: Group",
+        "description": "A scenic outdoor location perfect for nature photography with beautiful landscapes and wildlife.",
+        "address": "15350 Penitencia Creek Rd, San Jose, CA 95127",
+        "square_image_url_for_group": "https://i.imgur.com/K0MvKg9.jpeg",
+        "attached_hobby": "Photography"
+    },
+    {
+        "group_name": "De Anza College Photography Club",
+        "description": "A photography club where members can collaborate, learn techniques, and share their best shots.",
+        "address": "21250 Stevens Creek Blvd, Cupertino, CA 95014",
+        "square_image_url_for_group": "https://i.imgur.com/jV7BlK2.jpeg",
+        "attached_hobby": "Photography"
+    },
+    {
+        "group_name": "Yoga Source: Organization",
+        "description": "A welcoming yoga studio offering a variety of classes to enhance mindfulness and flexibility.",
+        "address": "1963 Pruneridge Ave, Santa Clara, CA 95050",
+        "square_image_url_for_group": "https://i.imgur.com/BpmTUls.jpeg",
+        "attached_hobby": "Yoga"
+    },
+    {
+        "group_name": "Breathe Los Gatos: Organization",
+        "description": "A peaceful yoga space focusing on meditation, relaxation, and overall well-being.",
+        "address": "27 University Ave, Los Gatos, CA 95030",
+        "square_image_url_for_group": "https://i.imgur.com/SiVEU9b.jpeg",
+        "attached_hobby": "Yoga"
+    },
+    {
+        "group_name": "Santa Clara University Yoga Club",
+        "description": "A student-run organization promoting physical health and mental clarity through yoga.",
+        "address": "500 El Camino Real, Santa Clara, CA 95053",
+        "square_image_url_for_group": "https://i.imgur.com/sg7mCFc.jpeg",
+        "attached_hobby": "Yoga"
+    },
+    {
+        "group_name": "Sur La Table Cooking Classes: Group",
+        "description": "A hands-on cooking experience where you can learn gourmet techniques from professional chefs.",
+        "address": "378 Santana Row, San Jose, CA 95128",
+        "square_image_url_for_group": "https://i.imgur.com/WTCwkUR.jpeg",
+        "attached_hobby": "Cooking"
+    },
+    {
+        "group_name": "Chef\u2019s Kitchen Cooking School: Organization",
+        "description": "An engaging cooking school offering lessons in various cuisines and techniques for all skill levels.",
+        "address": "1580 Oakland Rd, San Jose, CA 95131",
+        "square_image_url_for_group": "https://i.imgur.com/qlNR4cP.jpeg",
+        "attached_hobby": "Cooking"
+    },
+    {
+        "group_name": "Foothill College Culinary Arts Club",
+        "description": "A vibrant student community exploring the art of cooking through events and workshops.",
+        "address": "12345 El Monte Rd, Los Altos Hills, CA 94022",
+        "square_image_url_for_group": "https://i.imgur.com/Fi9sQxp.jpeg",
+        "attached_hobby": "Cooking"
+    },
+    {
+        "group_name": "Mission Peak Regional Preserve: Group",
+        "description": "A popular hiking destination offering breathtaking panoramic views and a rewarding climb.",
+        "address": "43600 Mission Blvd, Fremont, CA 94539",
+        "square_image_url_for_group": "https://i.imgur.com/8xW2ykf.jpeg",
+        "attached_hobby": "Hiking"
+    },
+    {
+        "group_name": "Almaden Quicksilver County Park: Group",
+        "description": "A historic park with diverse trails and stunning natural landscapes for all hiking levels.",
+        "address": "21785 Almaden Rd, San Jose, CA 95120",
+        "square_image_url_for_group": "https://i.imgur.com/h9caf2Q.jpeg",
+        "attached_hobby": "Hiking"
+    },
+    {
+        "group_name": "San Jose State University Outdoor Adventures",
+        "description": "A student-driven group organizing hikes and outdoor excursions for fitness and exploration.",
+        "address": "1 Washington Sq, San Jose, CA 95192",
+        "square_image_url_for_group": "https://i.imgur.com/OqomPuM.jpeg",
+        "attached_hobby": "Hiking"
+    }
+]

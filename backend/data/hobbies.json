@@ -1,0 +1,87 @@
+[
+    {
+        "Hobby": "Gardening",
+        "Pitch": "Transform your space into a green oasis! Grow flowers, veggies, or herbs\u2014right in your backyard or balcony. Relaxing, rewarding, and eco-friendly!",
+        "How to Start": "Grab soil, seeds, and a pot. Start with herbs or succulents.",
+        "Locations": "Emma Prusch Farm Park: 647 S King Rd, San Jose, CA 95116. West Valley College Teaching Garden: 14000 Fruitvale Ave, Saratoga, CA 95070. San Jose State University Garden Club.",
+        "Starting Cost": "$",
+        "Tags": [
+            "Outdoor",
+            "Relaxing",
+            "Creative",
+            "Low-Cost",
+            "Skill-Building",
+            "Seasonal"
+        ],
+        "Hobby Square Image": "https://i.imgur.com/ykj8JoI.jpeg",
+        "Hobby Landscape Image": "https://i.imgur.com/yhgyspe.jpeg"
+    },
+    {
+        "Hobby": "Photography",
+        "Pitch": "Capture life\u2019s unforgettable moments! Turn everyday scenes into stunning art with a phone or camera.",
+        "How to Start": "Start snapping pics with your phone or a beginner camera. Learn lighting and composition.",
+        "Locations": "San Jose Museum of Art: 110 S Market St, San Jose, CA 95113. Alum Rock Park: 15350 Penitencia Creek Rd, San Jose, CA 95127. De Anza College Photography Club.",
+        "Starting Cost": "$",
+        "Tags": [
+            "Creative",
+            "Artistic",
+            "Outdoor",
+            "Skill-Building",
+            "Social",
+            "Tech-Friendly"
+        ],
+        "Hobby Square Image": "https://i.imgur.com/L0Pfx7E.jpeg",
+        "Hobby Landscape Image": "https://i.imgur.com/vUUBPMR.jpeg"
+    },
+    {
+        "Hobby": "Yoga",
+        "Pitch": "Find your zen and boost your fitness! Stretch, strengthen, and de-stress with yoga.",
+        "How to Start": "Roll out a mat and follow online tutorials or join a beginner class.",
+        "Locations": "Yoga Source: 1963 Pruneridge Ave, Santa Clara, CA 95050. Breathe Los Gatos: 27 University Ave, Los Gatos, CA 95030. Santa Clara University Yoga Club.",
+        "Starting Cost": "$",
+        "Tags": [
+            "Relaxing",
+            "Fitness",
+            "Indoor/Outdoor",
+            "Low-Cost",
+            "Social",
+            "Skill-Building"
+        ],
+        "Hobby Square Image": "https://i.imgur.com/7Omx6n8.jpeg",
+        "Hobby Landscape Image": "https://i.imgur.com/nrhd8yX.jpeg"
+    },
+    {
+        "Hobby": "Cooking",
+        "Pitch": "Become the chef of your own kitchen! Explore new flavors and enjoy healthier, tastier homemade meals.",
+        "How to Start": "Start with simple recipes like pasta or stir-fry. Experiment with spices and ingredients.",
+        "Locations": "Sur La Table Cooking Classes: 378 Santana Row, San Jose, CA 95128. Chef\u2019s Kitchen Cooking School: 1580 Oakland Rd, San Jose, CA 95131. Foothill College Culinary Arts Club.",
+        "Starting Cost": "$",
+        "Tags": [
+            "Creative",
+            "Practical",
+            "Indoor",
+            "Social",
+            "Skill-Building",
+            "Low-Cost"
+        ],
+        "Hobby Square Image": "https://i.imgur.com/UgLbZbv.jpeg",
+        "Hobby Landscape Image": "https://i.imgur.com/davEr1O.jpeg"
+    },
+    {
+        "Hobby": "Hiking",
+        "Pitch": "Step into nature and leave your stress behind! Explore breathtaking trails, get fresh air, and stay active.",
+        "How to Start": "Lace up your shoes, grab water, and hit an easy trail.",
+        "Locations": "Mission Peak Regional Preserve: 43600 Mission Blvd, Fremont, CA 94539. Almaden Quicksilver County Park: 21785 Almaden Rd, San Jose, CA 95120. San Jose State University Outdoor Adventures.",
+        "Starting Cost": "$",
+        "Tags": [
+            "Outdoor",
+            "Fitness",
+            "Nature",
+            "Solo/Group",
+            "Low-Cost",
+            "Seasonal"
+        ],
+        "Hobby Square Image": "https://i.imgur.com/EQftf3v.png",
+        "Hobby Landscape Image": "https://i.imgur.com/6G9Ow4h.jpeg"
+    }
+]
