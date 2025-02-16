@@ -12,11 +12,15 @@ app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///groups.db"
 #flags track mod false for more efficent use
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
-db = SQLAlchemy(app)
+app.config['SQLALCHEMY_BINDS'] = {
+    'hobbies': 'sqlite:///hobbies.db'}
 
+
+db = SQLAlchemy(app)
 
 with app.app_context():
     db.create_all()
+    db.create_all(bind_key='hobbies')
 
 import routes
 
